@@ -25,3 +25,7 @@ The Recognizer instance in the [SpeechRecognition](https://pypi.org/project/Spee
 Sphinx seems pretty terrible and the Google API is much better (I haven't tried the others). Alas, I don't want data up on the evil cloudz so I'll perservere and learn if I can make Sphinx better.
 
 The wake word `anaconda` is purely chosen because it's hard to get wrong. But at the moment, this app does still get it wrong 🙃. Ideally, my wake phrase would be "Hey HAL" but that is being transcribed as anything from "e how" to "no" (yeah lol). It'll get better as I learn how to reduce noise and improve accuracy.
+
+### Accuracy
+
+After some research, Sphinx' model just can't compete with Googles etc. You can train the model to your own voice though by [adapting the default acoustic model](https://cmusphinx.github.io/wiki/tutorialadapt/)
